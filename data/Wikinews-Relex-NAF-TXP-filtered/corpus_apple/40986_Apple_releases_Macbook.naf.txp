@@ -1,0 +1,135 @@
+# FILE: 40986_Apple_releases_Macbook.naf.txp
+# DATE: 2006-05-17T00:00:00
+# FIELDS: token	tokenid	sentid	POS	lemma	dep	timex_id	timex_type	timex_value	entity	pred_class	event_id	role1	role2	role3	is_arg_pred	has_semrole	chunk	main_verb	connectives	morpho	tense+aspect+pol	coevent	pairs	
+
+DCT_2006-05-17	O	O	O	O	O	tmx0	B-DATE	2006-05-17	O	O	O	O	O	O	O	O	O	O	O	O	O	O	O	
+
+Apple	t1	1	NP0	apple	O	O	O	O	organization	O	O	O	O	O	release	A0	B-NP	O	O	apple+n+sing	O	O	O	
+releases	t2	1	NN2	release	t1:NMOD||t3:OBJ	O	O	O	O	OCCURRENCE	e2	A0	A1	O	O	O	I-NP	O	O	release+n+plur	NONE+NONE+pos	O	e2:tmx0:NONE	
+Macbook	t3	1	NP0	macbook	O	O	O	O	person	O	O	O	O	O	release	A1	I-NP	O	O	O	O	O	O	
+
+May	t4	2	NP0	may	t5:NMOD||t6:P||t7:NMOD	tmx1	B-DATE	2006-05-17	O	O	O	O	O	O	O	O	B-NP	O	O	may+n+sing	O	O	O	
+17	t5	2	CRD	17	O	tmx1	I-DATE	2006-05-17	O	O	O	O	O	O	O	O	I-NP	O	O	17+n+sing	O	O	O	
+,	t6	2	PUN	,	O	tmx1	I-DATE	2006-05-17	O	O	O	O	O	O	O	O	I-NP	O	O	punc	O	O	O	
+2006	t7	2	CRD	2006	O	O	O	O	O	O	O	O	O	O	O	O	I-NP	O	O	O	O	O	O	
+
+Apple	t8	3	NP0	apple	O	O	O	O	organization	O	O	O	O	O	introduce	A0	B-NP	O	O	apple+n+sing	O	O	O	
+Computer	t9	3	NP0	computer	t8:NAME	O	O	O	organization	O	O	O	O	O	introduce	A0	I-NP	O	O	computer+n+sing	O	O	O	
+today	t10	3	NN1	today	O	tmx2	B-DATE	2006-05-17	O	O	O	O	O	O	introduce	AM-TMP	B-NP	O	O	today+n+sing	O	O	O	
+introduced	t11	3	VVD	introduce	t9:SBJ||t10:TMP||t15:OBJ||t24:P	O	O	O	O	OCCURRENCE	e11	A0	AM-TMP	A1	O	O	B-VP	mainVb	O	introduce+v+indic+past	PAST+NONE+pos	O	e11:e15:NONE||e11:e18:NONE||e11:tmx2:NONE||e11:tmx0:NONE	
+the	t12	3	AT0	the	O	O	O	O	O	O	O	O	O	O	introduce	A1	B-NP	O	O	the+art	O	O	O	
+new	t13	3	AJ0	new	O	O	O	O	O	O	O	O	O	O	introduce	A1	I-NP	O	O	new+adj+zero	O	O	O	
+MacBook	t14	3	NP0	macbook	O	O	O	O	organization	O	O	O	O	O	introduce	A1	I-NP	O	O	O	O	O	O	
+line	t15	3	NN1	line	t12:NMOD||t13:NMOD||t14:NMOD||t16:P||t18:NMOD	O	O	O	O	OCCURRENCE	e15	A0	AM-TMP	A1	introduce	A1	I-NP	O	O	line+n+sing	NONE+NONE+pos	O	e15:e18:NONE||e15:tmx2:NONE||e15:tmx0:NONE	
+,	t16	3	PUN	,	O	O	O	O	O	O	O	O	O	O	introduce	A1	O	O	O	punc	O	O	O	
+which	t17	3	DTQ	which	O	O	O	O	O	O	O	O	O	O	introduce	A1	B-SBAR	O	O	which+pron	O	O	O	
+includes	t18	3	NN0	include	t17:SBJ||t20:OBJ	O	O	O	O	OCCURRENCE	e18	A2	R-A2	A1	introduce	A1	B-VP	O	O	include+v+indic+pres+sing3	PRESENT+NONE+pos	O	e18:tmx2:NONE||e18:tmx0:NONE	
+the	t19	3	AT0	the	O	O	O	O	O	O	O	O	O	O	introduce	A1	B-NP	O	O	the+art	O	O	O	
+Macbook	t20	3	NP0	macbook	t19:NMOD||t21:COORD	O	O	O	location	O	O	O	O	O	introduce	A1	I-NP	O	O	O	O	O	O	
+and	t21	3	CJC	and	t23:CONJ	O	O	O	O	O	O	O	O	O	introduce	A1	O	O	O	and+conj	O	O	O	
+Macbook	t22	3	NP0	macbook	O	O	O	O	organization	O	O	O	O	O	introduce	A1	B-NP	O	O	O	O	O	O	
+Pro	t23	3	NP0	pro	t22:NAME	O	O	O	organization	O	O	O	O	O	introduce	A1	I-NP	O	O	pro+n+sing	O	O	O	
+.	t24	3	PUN	.	O	O	O	O	O	O	O	O	O	O	O	O	O	O	O	.+punc	O	O	O	
+
+It	t25	4	PNP	it	O	O	O	O	O	O	O	O	O	O	contain	A0	B-NP	O	O	it+pron	O	O	O	
+is	t26	4	NN0	be	t25:SBJ||t28:PRD||t33:COORD||t53:P	O	O	O	O	O	O	O	O	O	O	O	B-VP	mainVb	O	be+v+indic+pres+sing3	PRESENT+NONE+pos	O	O	
+the	t27	4	AT0	the	O	O	O	O	O	O	O	O	O	O	successor	A0	B-NP	O	O	the+art	O	O	O	
+successor	t28	4	NN1	successor	t27:NMOD||t29:NMOD	O	O	O	O	STATE	e28	A0	A1	O	successor	A0	I-NP	O	O	successor+n+sing	NONE+NONE+pos	O	e28:e34:NONE||e28:e38:NONE||e28:e41:NONE||e28:e46:NONE||e28:e49:NONE||e28:tmx0:NONE	
+to	t29	4	TO0	to	t32:PMOD	O	O	O	O	O	O	O	O	O	successor	A0	B-PP	O	O	to+prep	O	O	O	
+the	t30	4	AT0	the	O	O	O	O	O	O	O	O	O	O	successor	A0	B-NP	O	O	the+art	O	O	O	
+iBook	t31	4	NP0	ibook	O	O	O	O	O	O	O	O	O	O	successor	A0	I-NP	O	O	O	O	O	O	
+line	t32	4	NN1	line	t30:NMOD||t31:NMOD	O	O	O	O	O	O	O	O	O	successor	A0	I-NP	O	O	line+n+sing	O	O	O	
+and	t33	4	CJC	and	t34:CONJ	O	O	O	O	O	O	O	O	O	O	O	O	O	O	and+conj	O	O	O	
+contains	t34	4	NN0	contain	t38:OBJ||t44:P||t45:COORD	O	O	O	O	OCCURRENCE	e34	A0	A1	O	O	O	B-VP	O	O	contain+v+indic+pres+sing3	PRESENT+NONE+pos	O	e34:e38:NONE||e34:e41:NONE||e34:e46:NONE||e34:e49:NONE||e34:tmx0:NONE	
+Intel	t35	4	NP0	intel	O	O	O	O	organization	O	O	O	O	O	contain	A1	B-NP	O	O	O	O	O	O	
+Core	t36	4	NP0	core	O	O	O	O	organization	O	O	O	O	O	contain	A1	I-NP	O	O	core+n+sing	O	O	O	
+Duo	t37	4	NP0	duo	t35:NAME||t36:NAME	O	O	O	O	O	O	O	O	O	contain	A1	I-NP	O	O	duo+n+sing	O	O	O	
+processors	t38	4	NN2	processor	t37:NMOD||t39:COORD	O	O	O	O	OCCURRENCE	e38	A1	A0	O	contain	A1	I-NP	O	O	processor+n+plur	NONE+NONE+pos	e107	e38:e41:NONE||e38:e46:NONE||e38:e49:NONE||e38:tmx0:NONE	
+and	t39	4	CJC	and	t41:CONJ	O	O	O	O	O	O	O	O	O	contain	A1	O	O	O	and+conj	O	O	O	
+a	t40	4	AT0	a	O	O	O	O	O	O	O	O	O	O	contain	A1	B-NP	O	O	a+art	O	O	O	
+host	t41	4	NN1	host	t40:NMOD||t42:NMOD	O	O	O	O	OCCURRENCE	e41	A1	O	O	contain	A1	I-NP	O	O	host+n+sing	NONE+NONE+pos	O	e41:e46:NONE||e41:e49:NONE||e41:tmx0:NONE	
+of	t42	4	PRF	of	t43:PMOD	O	O	O	O	O	O	O	O	O	contain	A1	B-PP	O	O	of+prep	O	O	O	
+features	t43	4	NN2	feature	O	O	O	O	O	O	O	O	O	O	contain	A1	B-NP	O	O	feature+n+plur	O	O	O	
+,	t44	4	PUN	,	O	O	O	O	O	O	O	O	O	O	O	O	O	O	O	punc	O	O	O	
+and	t45	4	CJC	and	t46:CONJ	O	O	O	O	O	O	O	O	O	O	O	O	O	Expansion	and+conj	O	O	O	
+starting	t46	4	VVG	start	t47:ADV	O	O	O	O	ASPECTUAL	e46	AM-MNR	O	O	O	O	B-VP	O	O	start+v+gerund+pres	PRESPART+NONE+pos	O	e46:e49:NONE||e46:tmx0:NONE	
+at	t47	4	PRP	at	t49:PMOD	O	O	O	O	O	O	O	O	O	start	AM-MNR	B-PP	O	O	at+prep	O	O	O	
+a	t48	4	AT0	a	O	O	O	O	O	O	O	O	O	O	start	AM-MNR	B-NP	O	O	a+art	O	O	O	
+price	t49	4	NN1	price	t48:NMOD||t50:NMOD	O	O	O	O	ASPECTUAL	e49	A2	A2	O	start	AM-MNR	I-NP	O	O	price+n+sing	NONE+NONE+pos	O	e49:tmx0:NONE	
+of	t50	4	PRF	of	t51:PMOD	O	O	O	O	O	O	O	O	O	start	AM-MNR	B-PP	O	O	of+prep	O	O	O	
+$	t51	4	PUN	$	t52:NMOD	O	O	O	O	O	O	O	O	O	start	AM-MNR	B-NP	O	O	$+punc	O	O	O	
+1,099	t52	4	CRD	1,099	O	O	O	O	O	O	O	O	O	O	start	AM-MNR	I-NP	O	O	O	O	O	O	
+.	t53	4	PUN	.	O	O	O	O	O	O	O	O	O	O	O	O	O	O	O	.+punc	O	O	O	
+
+The	t54	5	AT0	the	O	O	O	O	O	O	O	O	O	O	feature	A0	B-NP	O	O	the+art	O	O	O	
+Macbook	t55	5	NP0	macbook	t54:NMOD	O	O	O	misc	O	O	O	O	O	feature	A0	I-NP	O	O	O	O	O	O	
+features	t56	5	NN0	feature	t55:SBJ||t61:OBJ||t62:P||t63:ADV||t77:P	O	O	O	O	OCCURRENCE	e56	A0	A1	AM-ADV	O	O	B-VP	mainVb	O	feature+v+indic+pres+sing3	PRESENT+NONE+pos	O	e56:e61:NONE||e56:e68:NONE||e56:tmx0:NONE||e56:e11:NONE	
+a	t57	5	AT0	a	O	O	O	O	O	O	O	O	O	O	feature	A1	B-NP	O	O	a+art	O	O	O	
+13.3	t58	5	CRD	13.3	t59:P	O	O	O	O	O	O	O	O	O	feature	A1	I-NP	O	O	O	O	O	O	
+''	t59	5	NN0	''	O	O	O	O	O	O	O	O	O	O	feature	A1	I-NP	O	O	O	O	O	O	
+widescreen	t60	5	AJ0	widescreen	O	O	O	O	O	O	O	O	O	O	feature	A1	I-NP	O	O	O	O	O	O	
+display	t61	5	NN1	display	t57:NMOD||t58:NMOD||t60:NMOD	O	O	O	O	OCCURRENCE	e61	A0	A2	AM-MNR	feature	A1	I-NP	O	O	display+n+sing	NONE+NONE+pos	O	e61:e68:NONE||e61:tmx0:NONE	
+,	t62	5	PUN	,	O	O	O	O	O	O	O	O	O	O	O	O	O	O	O	punc	O	O	O	
+while	t63	5	PRP	while	t66:SUB	O	O	O	O	O	O	O	O	O	feature	AM-ADV	B-SBAR	O	Comparison	while+v+indic+pres+no3sing	O	O	O	
+the	t64	5	AT0	the	O	O	O	O	O	O	O	O	O	O	feature	AM-ADV	B-NP	O	O	the+art	O	O	O	
+Pro	t65	5	NP0	pro	t64:NMOD	O	O	O	O	O	O	O	O	O	feature	AM-ADV	I-NP	O	O	pro+n+sing	O	O	O	
+can	t66	5	VM0	can	t65:SBJ||t67:VC	O	O	O	O	O	O	O	O	O	feature	AM-ADV	B-VP	O	O	can+v+indic+pres+no3sing	PAST+NONE+pos	O	O	
+be	t67	5	VVB	be	t68:VC	O	O	O	O	O	O	O	O	O	feature	AM-ADV	I-VP	O	O	be+v+infin+pres	PAST+NONE+pos	O	O	
+purchased	t68	5	VVN	purchase	t69:ADV	O	O	O	O	OCCURRENCE	e68	A1	AM-MOD	AM-MNR	feature	AM-ADV	I-VP	O	O	purchase+v+part+past	PAST+NONE+pos	O	e68:tmx0:NONE	
+with	t69	5	PRP	with	t76:PMOD	O	O	O	O	O	O	O	O	O	feature	AM-ADV	B-PP	O	O	with+prep	O	O	O	
+either	t70	5	AT0	either	t71:COORD	O	O	O	O	O	O	O	O	O	feature	AM-ADV	B-NP	O	O	either+pron	O	O	O	
+15	t71	5	CRD	15	t72:P||t73:COORD	O	O	O	O	O	O	O	O	O	feature	AM-ADV	I-NP	O	O	15+n+sing	O	O	O	
+''	t72	5	NN0	''	O	O	O	O	O	O	O	O	O	O	feature	AM-ADV	I-NP	O	O	O	O	O	O	
+or	t73	5	CJC	or	t74:CONJ	O	O	O	O	O	O	O	O	O	feature	AM-ADV	I-NP	O	O	or+conj	O	O	O	
+17	t74	5	CRD	17	O	O	O	O	O	O	O	O	O	O	feature	AM-ADV	I-NP	O	O	17+n+sing	O	O	O	
+''	t75	5	NN0	''	O	O	O	O	O	O	O	O	O	O	feature	AM-ADV	I-NP	O	O	O	O	O	O	
+displays	t76	5	NN2	display	t70:NMOD||t75:P	O	O	O	O	O	O	O	O	O	feature	AM-ADV	I-NP	O	O	display+n+plur	O	O	O	
+.	t77	5	PUN	.	O	O	O	O	O	O	O	O	O	O	O	O	O	O	O	.+punc	O	O	O	
+
+It	t78	6	PNP	it	O	O	O	O	O	O	O	O	O	O	come	A1	B-NP	O	O	it+pron	O	O	O	
+comes	t79	6	NN0	come	t78:SBJ||t80:LOC||t100:P	O	O	O	O	OCCURRENCE	e79	A1	AM-MNR	O	O	O	B-VP	mainVb	O	come+v+indic+pres+sing3	PRESENT+NONE+pos	O	e79:tmx0:NONE||e79:e56:NONE	
+in	t80	6	PRP	in	t82:PMOD	O	O	O	O	O	O	O	O	O	come	AM-MNR	B-PP	O	O	in+prep	O	O	O	
+two	t81	6	CRD	two	O	O	O	O	O	O	O	O	O	O	come	AM-MNR	B-NP	O	O	two+adj+zero	O	O	O	
+colors	t82	6	NN2	color	t81:NMOD||t83:P||t88:APPO||t98:APPO	O	O	O	O	O	O	O	O	O	come	AM-MNR	I-NP	O	O	color+n+plur	O	O	O	
+:	t83	6	PUN	:	O	O	O	O	O	O	O	O	O	O	come	AM-MNR	O	O	O	:+punc	O	O	O	
+Black	t84	6	VVI	black	O	O	O	O	organization	O	O	O	O	O	come	AM-MNR	B-NP	O	O	black+v+indic+pres+no3sing	O	O	O	
+(	t85	6	PUL	(	O	O	O	O	organization	O	O	O	O	O	come	AM-MNR	O	O	O	(+punc	O	O	O	
+2	t86	6	CRD	2	O	O	O	O	O	O	O	O	O	O	come	AM-MNR	B-NP	O	O	2+n+sing	O	O	O	
+GHz	t87	6	NP0	ghz	O	O	O	O	O	O	O	O	O	O	come	AM-MNR	I-NP	O	O	ghz+n+sing	O	O	O	
+model	t88	6	NN1	model	t85:P||t86:NMOD||t87:NMOD||t89:ADV||t90:P||t91:COORD	O	O	O	O	O	O	O	O	O	come	AM-MNR	I-NP	O	O	model+n+sing	O	O	O	
+only	t89	6	AV0	only	O	O	O	O	O	O	O	O	O	O	come	AM-MNR	I-NP	O	O	only+adv	O	O	O	
+)	t90	6	PUR	)	O	O	O	O	O	O	O	O	O	O	come	AM-MNR	O	O	O	)+punc	O	O	O	
+and	t91	6	CJC	and	t92:CONJ	O	O	O	O	O	O	O	O	O	come	AM-MNR	O	O	O	and+conj	O	O	O	
+White	t92	6	NP0	white	t84:NAME	O	O	O	person	O	O	O	O	O	come	AM-MNR	B-NP	O	O	white+n+sing	O	O	O	
+(	t93	6	PUL	(	O	O	O	O	O	O	O	O	O	O	come	AM-MNR	O	O	O	(+punc	O	O	O	
+1.83	t94	6	CRD	1.83	t95:COORD	O	O	O	O	O	O	O	O	O	come	AM-MNR	B-NP	O	O	O	O	O	O	
+and	t95	6	CJC	and	t96:CONJ	O	O	O	O	O	O	O	O	O	come	AM-MNR	I-NP	O	O	and+conj	O	O	O	
+2	t96	6	CRD	2	O	O	O	O	O	O	O	O	O	O	come	AM-MNR	I-NP	O	O	2+n+sing	O	O	O	
+GHz	t97	6	NP0	ghz	O	O	O	O	O	O	O	O	O	O	come	AM-MNR	I-NP	O	O	ghz+n+sing	O	O	O	
+models	t98	6	NN2	model	t93:P||t94:NMOD||t97:NMOD||t99:P	O	O	O	O	O	O	O	O	O	come	AM-MNR	I-NP	O	O	model+n+plur	O	O	O	
+)	t99	6	PUR	)	O	O	O	O	O	O	O	O	O	O	come	AM-MNR	O	O	O	)+punc	O	O	O	
+.	t100	6	PUN	.	O	O	O	O	O	O	O	O	O	O	O	O	O	O	O	.+punc	O	O	O	
+
+This	t101	7	AT0	this	O	O	O	O	O	O	O	O	O	O	leave	A0	B-NP	O	O	this+pron	O	O	O	
+release	t102	7	NN1	release	t101:NMOD	O	O	O	O	OCCURRENCE	e102	O	O	O	leave	A0	I-NP	O	O	release+n+sing	NONE+NONE+pos	O	e102:e103:NONE||e102:e107:NONE||e102:e112:NONE||e102:e114:NONE||e102:tmx0:NONE	
+leaves	t103	7	NN0	leave	t102:SBJ||t108:OBJ||t122:P	O	O	O	O	OCCURRENCE	e103	A0	A2	O	O	O	B-VP	mainVb	O	leave+v+indic+pres+sing3	PRESENT+NONE+pos	e112	e103:e107:NONE||e103:e112:NONE||e103:e114:NONE||e103:tmx0:NONE||e103:e79:NONE	
+only	t104	7	AV0	only	O	O	O	O	O	O	O	O	O	O	leave	A2	B-NP	O	O	only+adv	O	O	O	
+one	t105	7	CRD	one	t104:NMOD	O	O	O	O	O	O	O	O	O	leave	A2	I-NP	O	O	one+n+sing	O	O	O	
+PowerPC	t106	7	NP0	powerpc	O	O	O	O	misc	O	O	O	O	O	leave	A2	I-NP	O	O	O	O	O	O	
+processor	t107	7	NN1	processor	t106:NMOD	O	O	O	O	OCCURRENCE	e107	A1	A0	A1	leave	A2	I-NP	O	O	processor+n+sing	NONE+NONE+pos	e38	e107:e112:NONE||e107:e114:NONE||e107:tmx0:NONE	
+computer	t108	7	NN1	computer	t105:NMOD||t107:NMOD||t110:NMOD	O	O	O	O	O	O	O	O	O	leave	A2	I-NP	O	O	computer+n+sing	O	O	O	
+that	t109	7	CJT	that	O	O	O	O	O	O	O	O	O	O	leave	A2	B-SBAR	O	O	that+pron	O	O	O	
+has	t110	7	NN0	have	t109:SBJ||t111:ADV||t112:VC	O	O	O	O	O	O	O	O	O	leave	A2	B-VP	O	O	have+v+indic+pres+sing3	PRESENT+PERFECTIVE+neg	O	O	
+not	t111	7	XX0	not	O	O	O	O	O	O	O	O	O	O	leave	A2	I-VP	O	O	not+adv	O	O	O	
+made	t112	7	VVN	make	t114:OBJ	O	O	O	O	OCCURRENCE	e112	A0	R-A0	AM-NEG	leave	A2	I-VP	O	O	make+v+part+past	PRESENT+PERFECTIVE+neg	e103	e112:e114:NONE||e112:tmx0:NONE	
+the	t113	7	AT0	the	O	O	O	O	O	O	O	O	O	O	leave	A2	B-NP	O	O	the+art	O	O	O	
+transition	t114	7	NN1	transition	t113:NMOD||t115:NMOD	O	O	O	O	OCCURRENCE	e114	A2	O	O	leave	A2	I-NP	O	O	transition+n+sing	NONE+NONE+pos	O	e114:tmx0:NONE	
+to	t115	7	TO0	to	t117:PMOD	O	O	O	O	O	O	O	O	O	leave	A2	B-PP	O	O	to+prep	O	O	O	
+Intel	t116	7	NP0	intel	O	O	O	O	organization	O	O	O	O	O	leave	A2	B-NP	O	O	O	O	O	O	
+chips	t117	7	NN2	chip	t116:NMOD||t118:P||t121:APPO	O	O	O	O	O	O	O	O	O	leave	A2	I-NP	O	O	chip+n+plur	O	O	O	
+,	t118	7	PUN	,	O	O	O	O	O	O	O	O	O	O	leave	A2	O	O	O	punc	O	O	O	
+the	t119	7	AT0	the	O	O	O	O	O	O	O	O	O	O	leave	A2	B-NP	O	O	the+art	O	O	O	
+PowerMac	t120	7	NP0	powermac	O	O	O	O	location	O	O	O	O	O	leave	A2	I-NP	O	O	O	O	O	O	
+G5	t121	7	NP0	g5	t119:NMOD||t120:NAME	O	O	O	O	O	O	O	O	O	leave	A2	I-NP	O	O	O	O	O	O	
+.	t122	7	PUN	.	O	O	O	O	O	O	O	O	O	O	O	O	O	O	O	.+punc	O	O	O	
+

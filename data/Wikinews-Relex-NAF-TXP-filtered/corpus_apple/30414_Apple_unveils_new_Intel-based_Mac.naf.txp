@@ -1,0 +1,117 @@
+# FILE: 30414_Apple_unveils_new_Intel-based_Mac.naf.txp
+# DATE: 2006-01-11T00:00:00
+# FIELDS: token	tokenid	sentid	POS	lemma	dep	timex_id	timex_type	timex_value	entity	pred_class	event_id	role1	role2	role3	is_arg_pred	has_semrole	chunk	main_verb	connectives	morpho	tense+aspect+pol	coevent	pairs	
+
+DCT_2006-01-11	O	O	O	O	O	tmx0	B-DATE	2006-01-11	O	O	O	O	O	O	O	O	O	O	O	O	O	O	O	
+
+Apple	t1	1	NP0	apple	O	O	O	O	organization	O	O	O	O	O	unveil	A0	B-NP	O	O	apple+n+sing	O	O	O	
+unveils	t2	1	NN0	unveil	t1:SBJ||t5:OBJ	O	O	O	O	OCCURRENCE	e2	A0	A1	O	O	O	B-VP	mainVb	O	unveil+v+indic+pres+sing3	PRESENT+NONE+pos	O	e2:e5:NONE||e2:tmx0:NONE	
+new	t3	1	AJ0	new	O	O	O	O	O	O	O	O	O	O	unveil	A1	B-NP	O	O	new+adj+zero	O	O	O	
+Intel-based	t4	1	AJ0	intel-based	O	O	O	O	organization	O	O	O	O	O	unveil	A1	I-NP	O	O	O	O	O	O	
+Mac	t5	1	NP0	mac	t3:NMOD||t4:NMOD	O	O	O	organization	OCCURRENCE	e5	AM-TMP	A1	O	unveil	A1	I-NP	O	O	mac+n+sing	NONE+NONE+pos	O	e5:tmx0:NONE	
+
+January	t6	2	NP0	january	O	tmx1	B-DATE	2006-01-11	O	O	O	O	O	O	O	O	B-NP	O	O	january+n+sing	O	O	O	
+11	t7	2	CRD	11	t6:NMOD||t8:P	tmx1	I-DATE	2006-01-11	O	O	O	O	O	O	O	O	I-NP	O	O	11+n+sing	O	O	O	
+,	t8	2	PUN	,	t9:NMOD	tmx1	I-DATE	2006-01-11	O	O	O	O	O	O	O	O	O	O	O	punc	O	O	O	
+2006	t9	2	CRD	2006	O	tmx2	B-DATE	2006	O	O	O	O	O	O	O	O	B-NP	O	O	O	O	O	O	
+
+Apple	t10	3	NP0	apple	O	O	O	O	organization	O	O	O	O	O	announce	A0	B-NP	O	O	apple+n+sing	O	O	O	
+Computer	t11	3	NP0	computer	t10:NAME	O	O	O	organization	O	O	O	O	O	announce	A0	I-NP	O	O	computer+n+sing	O	O	O	
+announced	t12	3	VVD	announce	t11:SBJ||t13:TMP||t17:OBJ||t25:P	O	O	O	O	REPORTING	e12	A0	AM-TMP	A1	O	O	B-VP	mainVb	O	announce+v+indic+past	PAST+NONE+pos	e42:e92	e12:e17:NONE||e12:e20:NONE||e12:e22:NONE||e12:e24:NONE||e12:tmx3:NONE||e12:tmx0:NONE||e12:e2:NONE	
+on	t13	3	PRP	on	t14:PMOD	O	O	O	O	O	O	O	O	O	announce	AM-TMP	B-PP	O	O	on+prep	O	O	O	
+Tuesday	t14	3	NP0	tuesday	O	tmx3	B-DATE	2006-01-10	O	O	O	O	O	O	announce	AM-TMP	B-NP	O	O	tuesday+n+sing	O	O	O	
+the	t15	3	AT0	the	O	O	O	O	O	O	O	O	O	O	announce	A1	B-NP	O	O	the+art	O	O	O	
+first	t16	3	AJ0	1	O	O	O	O	O	O	O	O	O	O	announce	A1	I-NP	O	O	first+adv	O	O	O	
+generation	t17	3	NN1	generation	t15:NMOD||t16:NMOD||t18:NMOD||t21:NMOD	O	O	O	O	OCCURRENCE	e17	A1	O	O	announce	A1	I-NP	O	O	generation+n+sing	NONE+NONE+pos	O	e17:e20:NONE||e17:e22:NONE||e17:e24:NONE||e17:tmx3:NONE||e17:tmx0:NONE	
+of	t18	3	PRF	of	t20:PMOD	O	O	O	O	O	O	O	O	O	announce	A1	B-PP	O	O	of+prep	O	O	O	
+their	t19	3	DPS	their	O	O	O	O	O	O	O	O	O	O	announce	A1	B-NP	O	O	their+adj+zero	O	O	O	
+products	t20	3	NN2	product	t19:NMOD	O	O	O	O	I_STATE	e20	A0	A1	O	announce	A1	I-NP	O	O	product+n+plur	NONE+NONE+pos	O	e20:e22:NONE||e20:e24:NONE||e20:tmx3:NONE||e20:tmx0:NONE	
+to	t21	3	TO0	to	t22:IM	O	O	O	O	O	O	O	O	O	announce	A1	B-SBAR	O	O	to+prep	O	O	O	
+use	t22	3	VVB	use	t24:OBJ	O	O	O	O	OCCURRENCE	e22	A0	A1	O	announce	A1	B-VP	O	O	use+v+indic+pres+no3sing	PRESENT+NONE+pos	O	e22:e24:NONE||e22:tmx3:NONE||e22:tmx0:NONE	
+Intel	t23	3	NP0	intel	O	O	O	O	organization	O	O	O	O	O	announce	A1	B-NP	O	O	O	O	O	O	
+processors	t24	3	NN2	processor	t23:NMOD	O	O	O	O	STATE	e24	A1	A0	O	announce	A1	I-NP	O	O	processor+n+plur	NONE+NONE+pos	O	e24:tmx3:NONE||e24:tmx0:NONE	
+.	t25	3	PUN	.	O	O	O	O	O	O	O	O	O	O	O	O	O	O	O	.+punc	O	O	O	
+
+The	t26	4	AT0	the	O	O	O	O	O	O	O	O	O	O	say	A0	B-NP	O	O	the+art	O	O	O	
+iMac	t27	4	NP0	imac	t26:NMOD||t28:COORD	O	O	O	O	O	O	O	O	O	say	A0	I-NP	O	O	O	O	O	O	
+and	t28	4	CJC	and	t32:CONJ	O	O	O	O	O	O	O	O	O	say	A0	O	O	O	and+conj	O	O	O	
+the	t29	4	AT0	the	O	O	O	O	O	O	O	O	O	O	say	A0	B-NP	O	O	the+art	O	O	O	
+new	t30	4	AJ0	new	O	O	O	O	O	O	O	O	O	O	say	A0	I-NP	O	O	new+adj+zero	O	O	O	
+MacBook	t31	4	NP0	macbook	O	O	O	O	misc	O	O	O	O	O	say	A0	I-NP	O	O	O	O	O	O	
+Pro	t32	4	NP0	pro	t29:NMOD||t30:NMOD||t31:NAME||t33:P||t36:APPO	O	O	O	misc	O	O	O	O	O	say	A0	I-NP	O	O	pro+n+sing	O	O	O	
+-	t33	4	PUN	-	O	O	O	O	O	O	O	O	O	O	say	A0	O	O	O	O	O	O	O	
+a	t34	4	ZZ0	a	O	O	O	O	O	O	O	O	O	O	say	C-A1	B-NP	O	O	a+n+sing	O	O	O	
+notebook	t35	4	NN1	notebook	O	O	O	O	O	O	O	O	O	O	say	A0	I-NP	O	O	notebook+n+sing	O	O	O	
+computer	t36	4	NN1	computer	t35:NMOD||t37:APPO||t40:P	O	O	O	O	O	O	O	O	O	say	A0	I-NP	O	O	computer+n+sing	O	O	O	
+replacing	t37	4	VVG	replace	t39:OBJ	O	O	O	O	OCCURRENCE	e37	A1	O	O	say	A0	B-VP	O	O	replace+v+gerund+pres	PRESPART+NONE+pos	e77	e37:e42:NONE||e37:e52:NONE||e37:e64:NONE||e37:tmx0:NONE	
+the	t38	4	AT0	the	O	O	O	O	O	O	O	O	O	O	say	A0	B-NP	O	O	the+art	O	O	O	
+PowerBook	t39	4	NP0	powerbook	t38:NMOD	O	O	O	misc	O	O	O	O	O	say	A0	I-NP	O	O	O	O	O	O	
+-	t40	4	PUN	-	O	O	O	O	O	O	O	O	O	O	say	A0	O	O	O	O	O	O	O	
+are	t41	4	VVI	be	t27:SBJ||t42:VC||t68:P||t69:P	O	O	O	O	O	O	O	O	O	O	O	B-VP	mainVb	O	be+v+indic+pres+no3sing	PRESENT+NONE+pos	O	O	
+said	t42	4	VVD	say	t43:OPRD	O	O	O	O	REPORTING	e42	A0	C-A1	O	O	O	I-VP	mainVb	O	say+v+indic+past	PAST+NONE+pos	e12:e92	e42:e52:NONE||e42:e64:NONE||e42:tmx0:NONE||e42:e12:NONE	
+to	t43	4	TO0	to	t44:IM	O	O	O	O	O	O	O	O	O	say	C-A1	I-VP	mainVb	O	to+prep	INFINITIVE+NONE+pos	O	O	
+be	t44	4	VVB	be	t49:PRD||t58:ADV||t62:P	O	O	O	O	O	O	O	O	O	say	C-A1	I-VP	mainVb	O	be+v+infin+pres	INFINITIVE+NONE+pos	O	O	
+up	t45	4	AV0	up	O	O	O	O	O	O	O	O	O	O	say	C-A1	B-NP	O	O	up+adv	O	O	O	
+to	t46	4	TO0	to	t53:P	O	O	O	O	O	O	O	O	O	say	C-A1	I-NP	O	O	to+prep	O	O	O	
+four	t47	4	CRD	four	O	O	O	O	O	O	O	O	O	O	say	C-A1	I-NP	O	O	four+n+sing	O	O	O	
+times	t48	4	NN2	time	t45:DEP||t46:DEP||t47:NMOD	O	O	O	O	O	O	O	O	O	say	C-A1	I-NP	O	O	time+n+plur	O	O	O	
+faster	t49	4	NN0	faster	t48:AMOD||t50:AMOD	O	O	O	O	O	O	O	O	O	say	C-A1	I-NP	O	O	fast+adj+comp	O	O	O	
+than	t50	4	PRP	than	t52:PMOD	O	O	O	O	O	O	O	O	O	say	C-A1	B-PP	O	O	than+conj	O	O	O	
+their	t51	4	DPS	their	O	O	O	O	O	O	O	O	O	O	say	C-A1	B-NP	O	O	their+adj+zero	O	O	O	
+predecessors	t52	4	NN2	predecessor	t51:NMOD	O	O	O	O	OCCURRENCE	e52	A1	A0	O	say	C-A1	I-NP	O	O	predecessor+n+plur	NONE+NONE+pos	O	e52:e64:NONE||e52:tmx0:NONE	
+(	t53	4	PUL	(	O	O	O	O	O	O	O	O	O	O	say	C-A1	O	O	O	(+punc	O	O	O	
+up	t54	4	PRP	up	O	O	O	O	O	O	O	O	O	O	say	C-A1	B-PP	O	O	up+prep	O	O	O	
+to	t55	4	TO0	to	t64:PMOD	O	O	O	O	O	O	O	O	O	say	C-A1	I-PP	O	O	to+prep	O	O	O	
+two	t56	4	CRD	two	t54:DEP||t55:DEP	O	O	O	O	O	O	O	O	O	say	C-A1	B-NP	O	O	two+adj+zero	O	O	O	
+times	t57	4	NN2	time	t34:DEP||t56:NMOD	O	O	O	O	O	O	O	O	O	say	C-A1	I-NP	O	O	time+n+plur	O	O	O	
+faster	t58	4	NN0	faster	t57:AMOD||t59:LOC	O	O	O	O	O	O	O	O	O	say	C-A1	B-ADVP	O	O	fast+adj+comp	O	O	O	
+in	t59	4	PRP	in	t61:PMOD	O	O	O	O	O	O	O	O	O	say	C-A1	B-PP	O	O	in+prep	O	O	O	
+the	t60	4	AT0	the	O	O	O	O	O	O	O	O	O	O	say	C-A1	B-NP	O	O	the+art	O	O	O	
+iMac	t61	4	NP0	imac	t60:NMOD	O	O	O	O	O	O	O	O	O	say	C-A1	I-NP	O	O	O	O	O	O	
+,	t62	4	PUN	,	O	O	O	O	O	O	O	O	O	O	say	C-A1	O	O	O	punc	O	O	O	
+four	t63	4	CRD	four	O	O	O	O	O	O	O	O	O	O	say	C-A1	B-NP	O	O	four+n+sing	O	O	O	
+times	t64	4	NN2	time	t63:NMOD||t65:NMOD	O	O	O	O	OCCURRENCE	e64	A1	O	O	say	C-A1	I-NP	O	O	time+n+plur	NONE+NONE+pos	O	e64:tmx0:NONE	
+for	t65	4	PRP	for	t67:PMOD	O	O	O	O	O	O	O	O	O	say	C-A1	B-PP	O	O	for+prep	O	O	O	
+the	t66	4	AT0	the	O	O	O	O	O	O	O	O	O	O	say	C-A1	B-NP	O	O	the+art	O	O	O	
+MacBook	t67	4	NP0	macbook	t66:NMOD	O	O	O	misc	O	O	O	O	O	say	C-A1	I-NP	O	O	O	O	O	O	
+.	t68	4	PUN	.	O	O	O	O	O	O	O	O	O	O	O	O	O	O	O	.+punc	O	O	O	
+)	t69	4	PUR	)	O	O	O	O	O	O	O	O	O	O	O	O	O	O	O	)+punc	O	O	O	
+
+These	t70	5	AT0	these	O	O	O	O	O	O	O	O	O	O	set	A1	B-NP	O	O	these+adj+zero	O	O	O	
+new	t71	5	AJ0	new	O	O	O	O	O	O	O	O	O	O	set	A1	I-NP	O	O	new+adj+zero	O	O	O	
+lines	t72	5	NN2	line	t70:NMOD||t71:NMOD||t73:NMOD	O	O	O	O	O	O	O	O	O	set	A1	I-NP	O	O	line+n+plur	O	O	O	
+of	t73	5	PRF	of	t74:PMOD	O	O	O	O	O	O	O	O	O	set	A1	B-PP	O	O	of+prep	O	O	O	
+computers	t74	5	NN2	computer	O	O	O	O	O	OCCURRENCE	e74	O	O	O	set	A1	B-NP	O	O	computer+n+plur	NONE+NONE+pos	O	e74:e77:NONE||e74:e80:NONE||e74:e83:NONE||e74:e86:NONE||e74:e87:NONE||e74:e92:NONE||e74:e95:NONE||e74:e99:NONE||e74:e105:NONE||e74:tmx0:NONE	
+have	t75	5	VVI	have	t72:SBJ||t76:VC||t106:P	O	O	O	O	O	O	O	O	O	O	O	B-VP	mainVb	O	have+v+indic+pres+no3sing	PRESENT+PERFECTIVE+pos	O	O	
+been	t76	5	VVN	be	t77:VC	O	O	O	O	O	O	O	O	O	O	O	I-VP	mainVb	O	be+v+part+past	PRESENT+PERFECTIVE+pos	O	O	
+set	t77	5	VVN	set	t78:PRT||t79:OPRD	O	O	O	O	I_ACTION	e77	A1	AM-PNC	O	O	O	I-VP	mainVb	O	set+v+part+past	PRESENT+PERFECTIVE+pos	e37	e77:e80:NONE||e77:e83:NONE||e77:e86:NONE||e77:e87:NONE||e77:e92:NONE||e77:e95:NONE||e77:e99:NONE||e77:e105:NONE||e77:tmx0:NONE||e77:e42:NONE	
+up	t78	5	AV0	up	O	O	O	O	O	O	O	O	O	O	O	O	B-PRT	O	O	up+adv	O	O	O	
+to	t79	5	TO0	to	t80:IM	O	O	O	O	O	O	O	O	O	set	AM-PNC	B-VP	O	O	to+prep	O	O	O	
+support	t80	5	VVB	support	t83:OBJ	O	O	O	O	OCCURRENCE	e80	A0	A1	O	set	AM-PNC	I-VP	O	O	support+v+indic+pres+no3sing	INFINITIVE+NONE+pos	O	e80:e83:NONE||e80:e86:NONE||e80:e87:NONE||e80:e92:NONE||e80:e95:NONE||e80:e99:NONE||e80:e105:NONE||e80:tmx0:NONE	
+the	t81	5	AT0	the	O	O	O	O	O	O	O	O	O	O	set	AM-PNC	B-NP	O	O	the+art	O	O	O	
+newest	t82	5	NN0	new	O	O	O	O	O	O	O	O	O	O	set	AM-PNC	I-NP	O	O	new+adj+sup	O	O	O	
+collection	t83	5	NN1	collection	t81:NMOD||t82:NMOD||t84:NMOD	O	O	O	O	OCCURRENCE	e83	AM-TMP	A1	O	set	AM-PNC	I-NP	O	O	collection+n+sing	NONE+NONE+pos	O	e83:e86:NONE||e83:e87:NONE||e83:e92:NONE||e83:e95:NONE||e83:e99:NONE||e83:e105:NONE||e83:tmx0:NONE	
+of	t84	5	PRF	of	t86:PMOD	O	O	O	O	O	O	O	O	O	set	AM-PNC	B-PP	O	O	of+prep	O	O	O	
+Mac	t85	5	NP0	mac	O	O	O	O	O	O	O	O	O	O	set	AM-PNC	B-NP	O	O	mac+n+sing	O	O	O	
+software	t86	5	NN1	software	t85:NMOD||t87:APPO||t89:P||t91:NMOD	O	O	O	O	OCCURRENCE	e86	A0	O	O	set	AM-PNC	I-NP	O	O	software+n+sing	NONE+NONE+pos	e95	e86:e87:NONE||e86:e92:NONE||e86:e95:NONE||e86:e99:NONE||e86:e105:NONE||e86:tmx0:NONE	
+entitled	t87	5	VVN	entitle	t88:TMP	O	O	O	O	OCCURRENCE	e87	A1	AM-TMP	O	set	AM-PNC	B-VP	O	O	entitle+v+part+past	PASTPART+NONE+pos	O	e87:e92:NONE||e87:e95:NONE||e87:e99:NONE||e87:e105:NONE||e87:tmx0:NONE	
+iLife	t88	5	NP0	ilife	O	O	O	O	O	O	O	O	O	O	set	AM-PNC	B-NP	O	O	O	O	O	O	
+,	t89	5	PUN	,	O	O	O	O	O	O	O	O	O	O	set	AM-PNC	O	O	O	punc	O	O	O	
+which	t90	5	DTQ	which	O	O	O	O	O	O	O	O	O	O	set	AM-PNC	B-SBAR	O	O	which+pron	O	O	O	
+has	t91	5	NN0	have	t90:SBJ||t92:VC	O	O	O	O	O	O	O	O	O	set	AM-PNC	B-VP	O	O	have+v+indic+pres+sing3	PRESENT+NONE+pos	O	O	
+added	t92	5	VVN	add	t95:OBJ||t96:ADV	O	O	O	O	I_ACTION	e92	A0	R-A0	A1	set	AM-PNC	B-NP	O	O	add+v+part+past	NONE+NONE+pos	e12:e42	e92:e95:NONE||e92:e99:NONE||e92:e105:NONE||e92:tmx0:NONE	
+internet	t93	5	NN1	internet	O	O	O	O	O	O	O	O	O	O	set	AM-PNC	I-NP	O	O	internet+n+sing	O	O	O	
+publication	t94	5	NN1	publication	t93:NMOD	O	O	O	O	O	O	O	O	O	set	AM-PNC	I-NP	O	O	publication+n+sing	O	O	O	
+software	t95	5	NN1	software	t94:NMOD	O	O	O	O	OCCURRENCE	e95	A1	A1	A1	set	AM-PNC	I-NP	O	O	software+n+sing	NONE+NONE+pos	e86	e95:e99:NONE||e95:e105:NONE||e95:tmx0:NONE	
+to	t96	5	TO0	to	t99:PMOD	O	O	O	O	O	O	O	O	O	set	AM-PNC	B-PP	O	O	to+prep	O	O	O	
+its	t97	5	DPS	its	O	O	O	O	O	O	O	O	O	O	set	AM-PNC	B-NP	O	O	its+adj+zero	O	O	O	
+high-end	t98	5	AJ0	high-end	O	O	O	O	O	O	O	O	O	O	set	AM-PNC	I-NP	O	O	O	O	O	O	
+graphics	t99	5	NN2	graphic	t97:NMOD||t98:NMOD||t100:P||t101:COORD	O	O	O	O	OCCURRENCE	e99	A0	O	O	set	AM-PNC	I-NP	O	O	graphics+n+sing	NONE+NONE+pos	O	e99:e105:NONE||e99:tmx0:NONE	
+,	t100	5	PUN	,	O	O	O	O	O	O	O	O	O	O	set	AM-PNC	O	O	O	punc	O	O	O	
+video	t101	5	NN1	video	t102:P||t103:COORD	O	O	O	O	O	O	O	O	O	set	AM-PNC	B-NP	O	O	video+n+sing	O	O	O	
+,	t102	5	PUN	,	O	O	O	O	O	O	O	O	O	O	set	AM-PNC	O	O	O	punc	O	O	O	
+and	t103	5	CJC	and	t105:CONJ	O	O	O	O	O	O	O	O	O	set	AM-PNC	I-NP	O	O	and+conj	O	O	O	
+sound	t104	5	AJ0	sound	O	O	O	O	O	O	O	O	O	O	set	AM-PNC	B-NP	O	O	sound+adj+zero	O	O	O	
+tools	t105	5	NN2	tool	t104:NMOD	O	O	O	O	OCCURRENCE	e105	O	O	O	set	AM-PNC	I-NP	O	O	tool+n+plur	NONE+NONE+pos	O	e105:tmx0:NONE	
+.	t106	5	PUN	.	O	O	O	O	O	O	O	O	O	O	O	O	O	O	O	.+punc	O	O	O	
+
